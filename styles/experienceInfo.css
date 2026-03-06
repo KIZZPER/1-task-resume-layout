@@ -21,6 +21,22 @@
     background: #fff;
     box-sizing: border-box;
     color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow: hidden;
+}
+
+.experience-info_list-item:nth-child(1) {
+    height: 76px;
+}
+
+.experience-info_list-item:nth-child(2) {
+    height: 108px;
+}
+
+.experience-info_list-item:nth-child(3) {
+    height: 96px;
 }
 
 .experience-info_list-item.selected {
@@ -52,6 +68,7 @@
 .experience-info_content {
     display: flex;
     justify-content: space-between;
+    gap: 8px;
 }
 
 .experience-info_job {
@@ -63,6 +80,7 @@
     font-size: 10px;
     line-height: 150%;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .experience-info_job-bottom {
@@ -84,9 +102,17 @@
 
 .experience-info_responsibility-list {
     width: 239px;
+    margin: 0;
+    padding-left: 20px;
 }
 
 .experience-info_responsibility-list-item {
     font-size: 8px;
     line-height: 150%;
+}
+
+.experience-info_separator {
+    font-size: 8px;
+    line-height: 150%;
+    font-weight: 400;
 }
