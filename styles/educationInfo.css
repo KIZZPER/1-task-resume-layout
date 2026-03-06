@@ -1,0 +1,89 @@
+.education-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.education-info_list {
+    display: flex;
+    gap: 16px;
+}
+
+.education-info_column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.education-info_list-item {
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 116px;
+}
+
+.education-info_list-item.selected {
+    background: #28D979;
+    color: #fff;
+}
+
+.education-info_list-item:nth-child(1) {
+    margin-right: 4px;
+}
+
+.education-info_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education-info_year {
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.education-info_icon {
+    font-size: 10px;
+}
+
+.education-info_specialty {
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.education-info_tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.education-info_tag {
+    font-size: 8px;
+    line-height: 150%;
+    color: #149063;
+    font-weight: 400;
+}
+
+.education-info_list-item.selected .education-info_tag {
+    color: #EBF9F2;
+}
+
+.education-info_place {
+    font-size: 8px;
+    line-height: 150%;
+    padding-top: 8px;
+}
+
+.education-info_column .education-info_list-item:last-child {                                                                                                                                                               
+    height: 96px;                                                                                                                                                                                                           
+}                                                                                                                                                                                                                           
+                                                                                                                                                                                                                           
+.education-info_list > .education-info_list-item {                                                                                                                                                                          
+    height: 108px;                                                                                                                                                                                                          
+}        
