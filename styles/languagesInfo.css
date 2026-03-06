@@ -24,6 +24,11 @@
     border-radius: 3px;
 }
 
+.languages-info_progress-short {
+    width: 129px;
+    margin-right: 39px;
+}
+
 .languages-info_item {
     display: flex;
     flex-direction: row;
