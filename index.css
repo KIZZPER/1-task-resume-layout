@@ -27,6 +27,11 @@
     height: 289px;
 }
 
+.resume {
+    width: 579px;
+    margin: 0 auto;
+}
+
 .card {
     border-radius: 12px;
     background-color: #f0f0f0;

@@ -74,6 +74,8 @@
 .experience-info_job {
     display: flex;
     flex-direction: column;
+    width: 120px;
+    flex-shrink: 0;
 }
 
 .experience-info_job-specialty {
